@@ -4,5 +4,5 @@
     
     "extends": ["config:base",
       "mergeConfidence:all-badges"
-    ],
+    ]
 }
