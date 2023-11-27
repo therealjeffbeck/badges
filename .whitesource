@@ -1,9 +1,15 @@
 {
   "settingsInheritedFrom": "therealjeffbeck/whitesource-config@main",
-"remediateSettings": {
-    
+ "remediateSettings": {
+    "enableRenovate": true,
     "extends": ["config:base",
-      "mergeConfidence:all-badges"
-    ]
+      "github>whitesource/merge-confidence:beta"
+    ],
+    "workflowRules": {
+      "enabled": true
+      
+    
+}
+}
 }
 
