@@ -3,7 +3,7 @@
  "remediateSettings": {
     "enableRenovate": true,
     "extends": ["config:base",
-      "github>whitesource/mergeConfidence:all-badges"
+      "mergeConfidence:all-badges"
     ],
     "workflowRules": {
       "enabled": true
